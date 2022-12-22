@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Bree+Serif&family=Ubuntu&display=swap');
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0; 
+ }
+
+h1 {
+    text-align: center;  
+    font-size: 8rem;
+    color: rgb(160, 118, 199) ;
+    opacity: 0.5;
+}
+ #form { 
+     margin: auto;
+     max-width: 100%;
+     width: 400px;
+     left: auto;
+ }
+ .input {
+    padding: 1rem 2rem; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: block;
+
+    border: none;
+    width: 100%;
+    font-size: 2rem;
+    
+
+ }
+ .input::placeholder{
+    color: #d5d5d5;
+ }
+ .todo {
+    background-color: white;
+    color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+  .todo li{
+    font-size: 1.5rem;
+
+    padding: 1rem 2rem; 
+    border-top: 1px solid black;
+  }
+  .todo li.completed {
+    background-color: rebeccapurple;
+    text-decoration: line-through;
+    opacity: 0.1;
+    
+  }
+  small{
+    color: rebeccapurple;
+  }
+  
